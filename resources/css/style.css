@@ -1,0 +1,190 @@
+html {
+    font-family: Nunito sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/*header*/
+
+main {
+    background-color: #272343;
+    color: #f3f3f3;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img {
+    max-width: 120px;
+    max-height: 120px;
+    padding: 10px 20px;
+}
+.company-name {
+    font-family: "Fjalla One";
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    width: 700px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding-top: 28px;
+}
+
+li {
+    display: block;
+    padding: 10px
+}
+
+a {
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*section */
+
+.type-of-services img {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/*mission*/
+
+.mission-statement {
+    padding-bottom: 40px;
+}
+
+#mission p {
+    font-family: Lora;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/*services*/
+
+#services {
+    background-color: #f0ece2;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.type-of-services div {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: Lora;
+    font-size: 1.25rem;
+}
+
+/*team*/
+
+.team-members img {
+    width: 260px;
+    height: 180px;
+}
+
+.job-title {
+    font-family: Lora;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.job-holder-name {
+    font-family: Lora;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+/*contact*/
+
+#contact {
+    border: 2px solid #4a4a4a;
+    margin: 100px 100px 50px 100px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-type {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.175rem;
+    padding: 10px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #596e79;
+}
+
+.footer {
+    text-align: center;
+    color: #f3f3f3;
+    padding: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
